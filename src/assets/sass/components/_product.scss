@@ -83,7 +83,7 @@
   .catbannertext1 {
     background: #7a7a7a;
     padding: 1px 12px;
-    display: inline-block;
+    width: fit-content;
   }
 
   .catbannertext2 {
@@ -99,5 +99,6 @@
     padding: 7px 35px;
     vertical-align: top;
     color: white;
+    width: fit-content;
   }
 }
