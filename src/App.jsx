@@ -15,6 +15,7 @@ import Mainheader from "./components/Mainheader";
 import Content from "./components/Content";
 import ProductList from "./components/Products";
 import TestimonialSection from "./components/Testimonial";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
         <TestimonialSection />
         <Cards />
         <Footer />
+        <ScrollToTop />
       </BrowserRouter>
     </div>
   );
