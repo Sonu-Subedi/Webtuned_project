@@ -21,15 +21,12 @@ const Topbar = () => {
               <NavLink className="topbar-link" to="/compare">
                 Compare(0)
               </NavLink>
-
-              {/* <FontAwesomeIcon icon={faAngleDown} className="icon" /> */}
             </li>
             <li className="topbar-item">
               <FontAwesomeIcon icon={faHeart} className="icon" />
               <NavLink className="topbar-link" to="/wishlist">
                 Wishlist(0)
               </NavLink>
-              {/* <FontAwesomeIcon icon={faAngleDown} className="icon" /> */}
             </li>
             <li className="topbar-item">
               <NavLink className="topbar-link" to="/setting">

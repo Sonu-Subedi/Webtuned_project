@@ -1,12 +1,11 @@
-/* YourComponent.css */
 .scroll {
   display: none;
   position: fixed;
   bottom: 20px;
   right: 20px;
   cursor: pointer;
-  background-color: #fff; /* Set your preferred background color */
-  border: 1px solid #ccc; /* Set your preferred border style */
+  background-color: #fff;
+  border: 1px solid #ccc;
   padding: 10px;
   border-radius: 50%;
   transition: opacity 0.3s;
@@ -17,6 +16,6 @@
 }
 
 .vector-icon5 {
-  width: 20px; /* Set your preferred width */
-  height: 20px; /* Set your preferred height */
+  width: 20px;
+  height: 20px;
 }
