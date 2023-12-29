@@ -14,6 +14,8 @@ import product8 from "../assets/images/8.jpg";
 import product9 from "../assets/images/9.jpg";
 import product3 from "../assets/images/3.jpg";
 import subbanner from "../assets/images/subbanner_img1.jpg";
+import catbanner1 from "../assets/images/cat_banner1.jpg";
+import catbanner2 from "../assets/images/cat_banner2.jpg";
 
 export {
   banner1,
@@ -32,4 +34,6 @@ export {
   product8,
   product9,
   subbanner,
+  catbanner1,
+  catbanner2,
 };

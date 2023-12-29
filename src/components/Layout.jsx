@@ -7,10 +7,8 @@ const KeenSliderComponent = () => {
   const [sliderRef, instanceRef] = useKeenSlider(
     {
       slidesPerView: 1,
-      mode: "free",
       loop: true,
-
-      duration: 500, // Adjust spacing between slides
+      duration: 500,
       slideChanged(s) {
         console.log("slide changed", s.details().relativeSlide);
       },

@@ -8,6 +8,8 @@ import { product9 } from "../helpers/common";
 import { product3 } from "../helpers/common";
 import PropTypes from "prop-types";
 import { subbanner } from "../helpers/common";
+import { catbanner1 } from "../helpers/common";
+import { catbanner2 } from "../helpers/common";
 
 const Product = ({ name, description, price, image }) => (
   <div className="product">
@@ -90,6 +92,14 @@ const ProductList = () => {
       </div>
       <div className="subbanner">
         <img src={subbanner} alt="subbaner" />
+      </div>
+      <div className="subbanner__cat-banner">
+        <div className="subbanner__cat-banner1">
+          <img src={catbanner1} alt="catbanner1" />
+        </div>
+        <div className="subbanner__cat-banner2">
+          <img src={catbanner2} alt="catbanner2" />
+        </div>
       </div>
     </>
   );
