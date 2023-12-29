@@ -65,3 +65,39 @@
   gap: 30px;
   margin: 90px 190px;
 }
+
+.subbanner__cat-banner1 {
+  position: relative;
+
+  .catbannertext {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-transform: capitalize;
+  }
+
+  .catbannertext1 {
+    background: #7a7a7a;
+    padding: 1px 12px;
+    display: inline-block;
+  }
+
+  .catbannertext2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .catbannerbtn {
+    font-size: 14px;
+    font-weight: 500;
+    background: #ecb235;
+    padding: 7px 35px;
+    vertical-align: top;
+    color: white;
+  }
+}

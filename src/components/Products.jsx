@@ -96,6 +96,16 @@ const ProductList = () => {
       <div className="subbanner__cat-banner">
         <div className="subbanner__cat-banner1">
           <img src={catbanner1} alt="catbanner1" />
+          <div className="catbannertext">
+            <span className="catbannertext1">20% save</span>
+            <span className="catbannertext2">Diamond Earrings</span>
+            <span className="catbannertext3">
+              The many variations of jewellery
+            </span>
+            <a className="catbannerbtn" href="#">
+              shop now
+            </a>
+          </div>
         </div>
         <div className="subbanner__cat-banner2">
           <img src={catbanner2} alt="catbanner2" />
