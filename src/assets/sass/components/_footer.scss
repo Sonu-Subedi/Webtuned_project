@@ -21,12 +21,17 @@
   text-decoration: none;
 }
 
-.footer-links a {
-  color: white;
-  text-decoration: none;
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  font-size: 14px;
   margin-right: 20px;
 }
 
-.footer-links a:last-child {
-  margin-right: 0;
+.footer-links a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
 }
