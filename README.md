@@ -8,4 +8,17 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
+This is a practice static website design and isnot responsive.
+Techstacks used:
+- ReactJS
+- SASS
+- KeenSlider
+- React Router DOM
+- PropTypes
+- React FA(Font Awesome) icons
+
+Special features:
+- Next button added for next slide carousel
+- Top scroll icon for a quick way to return to the top without having to continuously scroll or use the scrollbar.
+
 Live site preview: https://webtuned-project.vercel.app/
