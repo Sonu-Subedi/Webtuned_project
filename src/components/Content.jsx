@@ -28,8 +28,18 @@ const Content = () => {
               <img src={bannerimg3} alt="bannerimage" />
             </div>
           </div>
-          <div className="image4">
-            <img src={bannerimg4} alt="bannerimage" />
+
+          <div className="banner-4">
+            <div className="image4">
+              <img src={bannerimg4} alt="bannerimage" />
+            </div>
+            <div className="bannertext">
+              <span className="bannertext1">Big Discounts</span>
+              <span className="bannertext2">Latest Ring Collection 2020</span>
+              <span className="bannertext4">
+                You’ll love what you wear, and what you want
+              </span>
+            </div>
           </div>
         </div>
       </div>
