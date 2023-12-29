@@ -10,6 +10,7 @@ body {
   width: 100%;
   overflow: hidden;
   max-width: 1920px;
+  margin-bottom: 90px;
 }
 
 .keen-slider {
@@ -66,4 +67,15 @@ body {
 
 .nextbutton {
   text-align: right;
+  position: absolute;
+  top: 700px;
+  right: 300px;
+  cursor: pointer;
+  background-color: #ecb235;
+  color: black;
+  padding: 15px;
+  border-radius: 20%;
+  color: white;
+  font-weight: bold;
+  transition: opacity 0.3s;
 }
