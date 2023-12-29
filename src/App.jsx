@@ -9,7 +9,6 @@ import Blog from "./components/pages/Blog";
 import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
 import Carousel from "./components/Layout";
-import Cards from "./components/Cards";
 import Topbar from "./components/Topbar";
 import Mainheader from "./components/Mainheader";
 import Content from "./components/Content";
@@ -33,11 +32,9 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Carousel />
-
         <Content />
         <ProductList />
         <TestimonialSection />
-        <Cards />
         <Footer />
         <ScrollToTop />
       </BrowserRouter>
