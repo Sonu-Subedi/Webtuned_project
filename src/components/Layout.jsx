@@ -3,7 +3,7 @@ import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
 import { banner1, banner2 } from "../helpers/common";
 
-const KeenSliderComponent = () => {
+const Carousel = () => {
   const [sliderRef, instanceRef] = useKeenSlider(
     {
       slidesPerView: 1,
@@ -56,4 +56,4 @@ const KeenSliderComponent = () => {
   );
 };
 
-export default KeenSliderComponent;
+export default Carousel;

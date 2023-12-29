@@ -1,6 +1,5 @@
 import Navbar from "./Navbar";
 import { NavLink } from "react-router-dom";
-// import { logo } from "../helpers/common";
 
 const Header = () => {
   return (
