@@ -1,0 +1,73 @@
+body {
+  background-color: white;
+}
+.keen-slider-container {
+  width: 100%;
+  overflow: hidden;
+  max-width: 1920px;
+}
+
+.keen-slider {
+  display: flex;
+  transform: translate3d(-100% 0, 0);
+}
+
+.keen-slider__slide {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // transform: translate3d(-100% 0, 0);
+  min-width: 100%; /* Ensure each slide takes the full width of the container */
+  max-width: 100%;
+}
+
+.keen-slider__slide img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.content-container {
+  margin-left: 10%;
+  background-color: white;
+  display: flex;
+  gap: 20px;
+}
+.banner-rowimages {
+  display: flex;
+  justify-content: flex-start;
+
+  gap: 20px;
+}
+
+.banner-right-images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/* Layout.css */
+.horizontal-carousel {
+  display: flex;
+  flex-direction: row; /* Set the direction to horizontal */
+  align-items: center;
+  justify-content: center;
+}
+
+// .carousel {
+//   width: 100%; /* Set the width to 100% for responsiveness */
+// }
+
+.container {
+  min-width: 100%;
+  padding-left: 0%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}

@@ -1,0 +1,44 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 160px;
+  text-decoration: none;
+  color: white;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.logo-tag {
+  margin-left: 5px;
+}
+
+.logo img,
+.logo-tag {
+  max-width: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+// .icon {
+//   font-family: "Font Awesome 5 Free";
+// }
+
+// .navbar-link::after {
+//   content: "\uF107"; /* Unicode for the Font Awesome angle-down solid icon */
+//   font-family: "Font Awesome 5 Free";
+//   margin-left: 5px; /* Adjust the margin as needed */
+// }
+.icon {
+  margin-left: 5px;
+}
