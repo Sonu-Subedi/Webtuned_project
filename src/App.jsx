@@ -15,6 +15,7 @@ import Content from "./components/Content";
 import ProductList from "./components/Products";
 import TestimonialSection from "./components/Testimonial";
 import ScrollToTop from "./components/ScrollToTop";
+import TrendingProducts from "./components/TrendingProducts";
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
         <Carousel />
         <Content />
         <ProductList />
+        <TrendingProducts />
         <TestimonialSection />
         <Footer />
         <ScrollToTop />
